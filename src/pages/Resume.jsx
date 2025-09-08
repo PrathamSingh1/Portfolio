@@ -2,12 +2,12 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div className="sm:max-w-[900px] max-w-[350px] mx-auto mt-10 p-5 text-center">
+    <div className="sm:max-w-[1000px] max-w-[350px] mx-auto mt-4 text-center">
       {/* Heading */}
       <h1 className="text-3xl font-bold mb-6 text-white">My Resume</h1>
 
       {/* PDF Viewer */}
-      <div className="w-full h-[600px] border rounded-lg shadow-lg overflow-hidden">
+      <div className="w-full h-[800px] border rounded-lg shadow-lg overflow-hidden">
         <iframe
           src={`Resume.pdf`}
           title="Resume"
