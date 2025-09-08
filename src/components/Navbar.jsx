@@ -28,11 +28,13 @@ const Navbar = () => {
                 Contact Me
             </h2>
             </Link>
-            <Link to={`/contact`}>
+            
+            <Link to={`/resume`}>
             <h2>
                 Resume
             </h2>
             </Link>
+      
         </div>
         <div>
             <h3></h3>
