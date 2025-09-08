@@ -1,4 +1,8 @@
 import React from "react";
+import { Document, Page, pdfjs } from "react-pdf";
+
+// Set worker file for PDF rendering
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const Resume = () => {
   return (
@@ -7,12 +11,17 @@ const Resume = () => {
       <h1 className="text-3xl font-bold mb-6 text-white">My Resume</h1>
 
       {/* PDF Viewer */}
-      <div className="w-full h-[600px] border rounded-lg shadow-lg overflow-hidden">
+      {/* <div className="w-full h-[600px] border rounded-lg shadow-lg overflow-hidden">
         <iframe
           src={`Resume.pdf`}
           title="Resume"
           className="w-full h-full"
         />
+      </div> */}
+      <div className="w-full border rounded-lg shadow-lg overflow-hidden flex justify-center">
+        <Document file={`${import.meta.env.BASE_URL}Resume.pdf`}>
+          <Page pageNumber={1} />
+        </Document>
       </div>
 
       {/* Download Button */}
