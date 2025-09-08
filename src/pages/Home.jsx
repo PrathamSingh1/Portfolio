@@ -2,13 +2,13 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='sm:max-w-[810px] max-w-[350px] mx-auto mt-[70px]'>
+    <div className='sm:max-w-[810px] max-w-[350px] mx-auto sm:mt-[70px] mt-[20px]'>
 
       {/* Border Section */}
-      <div className='border-[1px] border-[#27272a] w-[full] h-[25vh] p-[20px] rounded-[10px]'>
+      <div className='border-[1px] border-[#27272a] w-[full] sm:h-[25vh] p-[20px] rounded-[10px]'>
         <div className='flex items-center justify-between'>
           <div>
-            <h1 className='font-[Menlo] text-[36px] leading-[40px] font-[700] tracking-tighter'>Shashi Ranjan Singh</h1>
+            <h1 className='font-[Menlo] sm:text-[36px] text-[20px] leading-[40px] font-[700] tracking-tighter'>Shashi Ranjan Singh</h1>
           </div>
           <div className='flex items-center gap-3'>
             <div className='p-[10px] border-[1px] border-[#27272a] w-[41.6px] h-[41.6px] rounded-[10px]'>
@@ -23,13 +23,13 @@ const Home = () => {
             
           </div>
         </div>
-        <div className='flex text-[#9ca3af] font-[400] text-[20px] leading-[26px] mt-[5px]'>
-          <div className='w-[20px] h-[20px]'>
+        <div className='flex items-center text-[#9ca3af] font-[400] sm:text-[20px] text-[18px] leading-[26px] mt-[5px]'>
+          <div className='sm:w-[20px] w-[18px] sm:h-[20px] h-[18px]'>
             <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 3.5C6 2.67157 6.67157 2 7.5 2S9 2.67157 9 3.5 8.32843 5 7.5 5C6.67157 5 6 4.32843 6 3.5zM8 5.94999C9.14112 5.71836 10 4.70948 10 3.5 10 2.11929 8.88071 1 7.5 1 6.11929 1 5 2.11929 5 3.5c0 1.20948.85888 2.21836 2 2.44999V13.5c0 .2761.22386.5.5.5s.5-.2239.5-.5V5.94999z" fill="currentcolor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
           </div>
           <span>Noida, India</span>
         </div>
-        <div className='text-[20px] font-[400] leading-[26px] mt-[15px]'>
+        <div className='sm:text-[20px] text-[18px] font-[400] leading-[26px] mt-[15px]'>
           <p>I'm a Software Engineer passionate about building scalable web applications with clean code, modern technologies, and seamless user experiences.</p>
         </div>
         
@@ -37,34 +37,34 @@ const Home = () => {
 
       {/* What I Work With */}
       <div>
-        <h1 className='text-[40px] text-[#f1f5f9] leading-[52px] font-[700] mb-[30px] mt-[55px]'>What I work with</h1>
+        <h1 className='sm:text-[40px] text-[32px] text-[#f1f5f9] leading-[52px] font-[700] mb-[30px] mt-[55px]'>What I work with</h1>
         <div>
-          <div className='flex items-center gap-3 text-[20px] p-[8px]'>
-            <i className="devicon-html5-plain text-3xl"></i> HTML
-            <i className="devicon-css3-plain text-3xl"></i> CSS
-            <i className="devicon-tailwindcss-plain text-3xl"></i> Tailwind
-            <i className="devicon-bootstrap-plain text-3xl"></i> Bootstrap
-            <i className="devicon-materialui-plain text-3xl"></i> MaterialUI
-            <i className="devicon-sass-plain text-3xl"></i> Sass
-            <i className="devicon-javascript-plain text-3xl"></i> JavaScript
-            <i className="devicon-typescript-plain text-3xl"></i> TypeScript
-            <i className="devicon-react-plain text-3xl"></i> React
-            <i className="devicon-nextjs-plain text-3xl"></i> Nextjs
+          <div className='flex items-center sm:gap-3 gap-2 sm:text-[20px] text-[16px] p-[8px] overflow-hidden'>
+            <i className="devicon-html5-plain sm:text-3xl text-2xl"></i> HTML
+            <i className="devicon-css3-plain sm:text-3xl text-2xl"></i> CSS
+            <i className="devicon-tailwindcss-plain sm:text-3xl text-2xl"></i> Tailwind
+            <i className="devicon-bootstrap-plain sm:text-3xl text-2xl"></i> Bootstrap
+            <i className="devicon-materialui-plain sm:text-3xl text-2xl"></i> MaterialUI
+            <i className="devicon-sass-plain sm:text-3xl text-2xl"></i> Sass
+            <i className="devicon-javascript-plain sm:text-3xl text-2xl"></i> JavaScript
+            <i className="devicon-typescript-plain sm:text-3xl text-2xl"></i> TypeScript
+            <i className="devicon-react-plain sm:text-3xl text-2xl"></i> React
+            <i className="devicon-nextjs-plain sm:text-3xl text-2xl"></i> Nextjs
           </div>
-          <div className='flex items-center gap-3 text-[20px] p-[8px] mt-[10px]'>
-            <i class="devicon-nodejs-plain-wordmark text-3xl"></i> Node.js
-            <i class="devicon-express-original text-3xl"></i> Express
-            <i class="devicon-mongodb-plain text-3xl"></i> MongoDB
-            <i class="devicon-mysql-original text-3xl"></i> MySQL
-            <i class="devicon-postgresql-plain text-3xl"></i> PostgreSQL
-            <i class="devicon-prisma-original text-3xl"></i> Prisma
-            <i class="devicon-git-plain text-3xl"></i> Git
-            <i class="devicon-github-original text-3xl"></i> Github
-            <i class="devicon-docker-plain text-3xl"></i> Docker
-            <i class="devicon-amazonwebservices-plain-wordmark text-3xl"></i> AWS
-            <i class="devicon-cloudflare-plain text-3xl"></i> Cloudflare
-            <i class="devicon-vercel-original text-3xl"></i> Vercel
-            <i class="devicon-bash-plain text-3xl"></i> Bash
+          <div className='flex items-center sm:gap-3 gap-2 sm:text-[20px] text-[16px] p-[8px] mt-[10px] overflow-hidden'>
+            <i class="devicon-nodejs-plain-wordmark sm:text-3xl text-2xl"></i> Node.js
+            <i class="devicon-express-original sm:text-3xl text-2xl"></i> Express
+            <i class="devicon-mongodb-plain sm:text-3xl text-2xl"></i> MongoDB
+            <i class="devicon-mysql-original sm:text-3xl text-2xl"></i> MySQL
+            <i class="devicon-postgresql-plain sm:text-3xl text-2xl"></i> PostgreSQL
+            <i class="devicon-prisma-original sm:text-3xl text-2xl"></i> Prisma
+            <i class="devicon-git-plain sm:text-3xl text-2xl"></i> Git
+            <i class="devicon-github-original sm:text-3xl text-2xl"></i> Github
+            <i class="devicon-docker-plain sm:text-3xl text-2xl"></i> Docker
+            <i class="devicon-amazonwebservices-plain-wordmark sm:text-3xl text-2xl"></i> AWS
+            <i class="devicon-cloudflare-plain sm:text-3xl text-2xl"></i> Cloudflare
+            <i class="devicon-vercel-original sm:text-3xl text-2xl"></i> Vercel
+            <i class="devicon-bash-plain sm:text-3xl text-2xl"></i> Bash
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ const Home = () => {
       <div>
         <h1 className='text-[40px] leading-[52px] font-[700] mb-[30px] mt-[30px]'>Experience</h1>
         <div className='sm:max-w-[740px] max-w-[350px] mx-auto'>
-          <h2 className='text-[20px] leading-[26px] text-[#31929a] font-[500]'>Amzsoft Innovexa</h2>
+          <h2 className='text-[20px] leading-[26px] text-[#31929a] font-[500]'>Codexon</h2>
           <h1 className='text-[20px] leading-[28px] text-[#f1f5f9] font-[700]'>Software Engineering Intern</h1>
           <h3 className='text-[14px] leading-[20px] text-[#94a3b8] font-[400]'>July 2024 - Dec 2024 </h3>
           <p className='text-[20px] leading-[26px] text-[#cbd5e1] font-[400]'>Developed and maintained frontend features using React.js. Worked on creating responsive, user-friendly interfaces and improving overall UI/UX for the company's web applications. Collaborated with the backend team to integrate APIs and ensure smooth functionality across the platform.</p>
