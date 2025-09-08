@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='sm:max-w-[500px] max-w-[300px] mx-auto mt-[50px]'>
+    <div className='sm:max-w-[500px] max-w-[300px] mx-auto sm:mt-[50px] mt-[10px]'>
       <div className="text-white rounded-xl shadow-lg border border-[#27272a] p-4 sm:p-6">
         {/* Heading */}
         <h2 className="text-[28px] font-bold text-center mb-3">Contact Me</h2>

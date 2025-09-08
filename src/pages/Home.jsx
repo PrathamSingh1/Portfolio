@@ -71,18 +71,18 @@ const Home = () => {
 
       {/* Experience */}
       <div>
-        <h1 className='text-[40px] leading-[52px] font-[700] mb-[30px] mt-[30px]'>Experience</h1>
+        <h1 className='sm:text-[40px] text-[32px] leading-[52px] font-[700] mb-[30px] mt-[30px]'>Experience</h1>
         <div className='sm:max-w-[740px] max-w-[350px] mx-auto'>
           <h2 className='text-[20px] leading-[26px] text-[#31929a] font-[500]'>Codexon</h2>
           <h1 className='text-[20px] leading-[28px] text-[#f1f5f9] font-[700]'>Software Engineering Intern</h1>
           <h3 className='text-[14px] leading-[20px] text-[#94a3b8] font-[400]'>July 2024 - Dec 2024 </h3>
-          <p className='text-[20px] leading-[26px] text-[#cbd5e1] font-[400]'>Developed and maintained frontend features using React.js. Worked on creating responsive, user-friendly interfaces and improving overall UI/UX for the company's web applications. Collaborated with the backend team to integrate APIs and ensure smooth functionality across the platform.</p>
+          <p className='sm:text-[20px] text-[18px] leading-[26px] text-[#cbd5e1] font-[400]'>Developed and maintained frontend features using React.js. Worked on creating responsive, user-friendly interfaces and improving overall UI/UX for the company's web applications. Collaborated with the backend team to integrate APIs and ensure smooth functionality across the platform.</p>
         </div>
       </div>
 
       {/* Project */}
       <div>
-        <h1 className='text-[40px] leading-[52px] font-[700] mb-[30px] mt-[30px]'>Projects</h1>
+        <h1 className='sm:text-[40px] text-[32px] leading-[52px] font-[700] mb-[30px] mt-[30px]'>Projects</h1>
         
       </div>
     </div>

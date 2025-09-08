@@ -4,10 +4,10 @@ const Resume = () => {
   return (
     <div className="sm:max-w-[1000px] max-w-[350px] mx-auto mt-4 text-center">
       {/* Heading */}
-      <h1 className="text-3xl font-bold mb-6 text-white">My Resume</h1>
+      <h1 className="sm:text-[40px] text-[32px] font-bold mb-6 text-white">My Resume</h1>
 
       {/* PDF Viewer */}
-      <div className="w-full h-[800px] border rounded-lg shadow-lg overflow-hidden">
+      <div className="w-full sm:h-[800px] h-[300px] border rounded-lg shadow-lg overflow-hidden">
         <iframe
           src={`Resume.pdf`}
           title="Resume"
