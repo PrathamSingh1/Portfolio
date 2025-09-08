@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="flex items-center justify-between p-4 px-[100px] font-[Menlo] text-[18px]">
-        <div>
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 sm:px-[100px] px-[20px] font-[Menlo] text-[18px]">
+        <div className="mb-4 sm:mb-0">
             <Link to={`/`}>
             <h1 className="text-[20px] font-[700]">
                 Shashi Ranjan Singh
             </h1>
             </Link>
         </div>
-        <div className="flex items-center gap-10 mr-35">
+        <div className="flex flex-col sm:flex-row sm:gap-10 sm:mr-35 text-left sm:text-right">
             <Link to={`/about`}>
             <h2>
                 About
