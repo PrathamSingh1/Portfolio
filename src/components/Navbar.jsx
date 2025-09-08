@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="flex items-center justify-between p-4 font-[Menlo] text-[18px]">
+      <div className="flex items-center justify-between p-4 px-[100px] font-[Menlo] text-[18px]">
         <div>
             <Link to={`/`}>
-            <h1>
+            <h1 className="text-[20px] font-[700]">
                 Shashi Ranjan Singh
             </h1>
             </Link>

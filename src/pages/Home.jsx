@@ -3,6 +3,8 @@ import React from 'react'
 const Home = () => {
   return (
     <div className='sm:max-w-[810px] max-w-[350px] mx-auto mt-[70px]'>
+
+      {/* Border Section */}
       <div className='border-[1px] border-[#27272a] w-[full] h-[25vh] p-[20px] rounded-[10px]'>
         <div className='flex items-center justify-between'>
           <div>
@@ -30,6 +32,57 @@ const Home = () => {
         <div className='text-[20px] font-[400] leading-[26px] mt-[15px]'>
           <p>I'm a Software Engineer passionate about building scalable web applications with clean code, modern technologies, and seamless user experiences.</p>
         </div>
+        
+      </div>
+
+      {/* What I Work With */}
+      <div>
+        <h1 className='text-[40px] text-[#f1f5f9] leading-[52px] font-[700] mb-[30px] mt-[55px]'>What I work with</h1>
+        <div>
+          <div className='flex items-center gap-3 text-[20px] p-[8px]'>
+            <i className="devicon-html5-plain text-3xl"></i> HTML
+            <i className="devicon-css3-plain text-3xl"></i> CSS
+            <i className="devicon-tailwindcss-plain text-3xl"></i> Tailwind
+            <i className="devicon-bootstrap-plain text-3xl"></i> Bootstrap
+            <i className="devicon-materialui-plain text-3xl"></i> MaterialUI
+            <i className="devicon-sass-plain text-3xl"></i> Sass
+            <i className="devicon-javascript-plain text-3xl"></i> JavaScript
+            <i className="devicon-typescript-plain text-3xl"></i> TypeScript
+            <i className="devicon-react-plain text-3xl"></i> React
+            <i className="devicon-nextjs-plain text-3xl"></i> Nextjs
+          </div>
+          <div className='flex items-center gap-3 text-[20px] p-[8px] mt-[10px]'>
+            <i class="devicon-nodejs-plain-wordmark text-3xl"></i> Node.js
+            <i class="devicon-express-original text-3xl"></i> Express
+            <i class="devicon-mongodb-plain text-3xl"></i> MongoDB
+            <i class="devicon-mysql-original text-3xl"></i> MySQL
+            <i class="devicon-postgresql-plain text-3xl"></i> PostgreSQL
+            <i class="devicon-prisma-original text-3xl"></i> Prisma
+            <i class="devicon-git-plain text-3xl"></i> Git
+            <i class="devicon-github-original text-3xl"></i> Github
+            <i class="devicon-docker-plain text-3xl"></i> Docker
+            <i class="devicon-amazonwebservices-plain-wordmark text-3xl"></i> AWS
+            <i class="devicon-cloudflare-plain text-3xl"></i> Cloudflare
+            <i class="devicon-vercel-original text-3xl"></i> Vercel
+            <i class="devicon-bash-plain text-3xl"></i> Bash
+          </div>
+        </div>
+      </div>
+
+      {/* Experience */}
+      <div>
+        <h1 className='text-[40px] leading-[52px] font-[700] mb-[30px] mt-[30px]'>Experience</h1>
+        <div className='sm:max-w-[740px] max-w-[350px] mx-auto'>
+          <h2 className='text-[20px] leading-[26px] text-[#31929a] font-[500]'>Amzsoft Innovexa</h2>
+          <h1 className='text-[20px] leading-[28px] text-[#f1f5f9] font-[700]'>Software Engineering Intern</h1>
+          <h3 className='text-[14px] leading-[20px] text-[#94a3b8] font-[400]'>July 2024 - Dec 2024 </h3>
+          <p className='text-[20px] leading-[26px] text-[#cbd5e1] font-[400]'>Developed and maintained frontend features using React.js. Worked on creating responsive, user-friendly interfaces and improving overall UI/UX for the company's web applications. Collaborated with the backend team to integrate APIs and ensure smooth functionality across the platform.</p>
+        </div>
+      </div>
+
+      {/* Project */}
+      <div>
+        <h1 className='text-[40px] leading-[52px] font-[700] mb-[30px] mt-[30px]'>Projects</h1>
         
       </div>
     </div>
