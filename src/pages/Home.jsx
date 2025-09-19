@@ -35,11 +35,13 @@ const Home = () => {
         
       </div>
 
-      {/* What I Work With */}
+     
       <div>
         <h1 className='sm:text-[40px] text-[32px] text-[#f1f5f9] leading-[52px] font-[700] mb-[30px] mt-[55px]'>What I work with</h1>
-        <div>
-          <div className='flex items-center sm:gap-3 gap-2 sm:text-[20px] text-[16px] p-[8px] overflow-hidden'>
+        <div className='whitespace-nowrap overflow-hidden'>
+          <div className="flex w-max frontendContainer">
+      
+          <div className="flex items-center sm:gap-3 gap-2 sm:text-[20px] text-[16px] p-[8px]">
             <i className="devicon-html5-plain sm:text-3xl text-2xl"></i> HTML
             <i className="devicon-css3-plain sm:text-3xl text-2xl"></i> CSS
             <i className="devicon-tailwindcss-plain sm:text-3xl text-2xl"></i> Tailwind
@@ -51,7 +53,23 @@ const Home = () => {
             <i className="devicon-react-plain sm:text-3xl text-2xl"></i> React
             <i className="devicon-nextjs-plain sm:text-3xl text-2xl"></i> Nextjs
           </div>
-          <div className='flex items-center sm:gap-3 gap-2 sm:text-[20px] text-[16px] p-[8px] mt-[10px] overflow-hidden'>
+
+         
+          <div className="flex items-center sm:gap-3 gap-2 sm:text-[20px] text-[16px] p-[8px]">
+            <i className="devicon-html5-plain sm:text-3xl text-2xl"></i> HTML
+            <i className="devicon-css3-plain sm:text-3xl text-2xl"></i> CSS
+            <i className="devicon-tailwindcss-plain sm:text-3xl text-2xl"></i> Tailwind
+            <i className="devicon-bootstrap-plain sm:text-3xl text-2xl"></i> Bootstrap
+            <i className="devicon-materialui-plain sm:text-3xl text-2xl"></i> MaterialUI
+            <i className="devicon-sass-plain sm:text-3xl text-2xl"></i> Sass
+            <i className="devicon-javascript-plain sm:text-3xl text-2xl"></i> JavaScript
+            <i className="devicon-typescript-plain sm:text-3xl text-2xl"></i> TypeScript
+            <i className="devicon-react-plain sm:text-3xl text-2xl"></i> React
+            <i className="devicon-nextjs-plain sm:text-3xl text-2xl"></i> Nextjs
+          </div>
+        </div>
+        <div className="flex w-max backendContainer">
+          <div className='flex items-center sm:gap-3 gap-2 sm:text-[20px] text-[16px] p-[8px] mt-[10px]'>
             <i class="devicon-nodejs-plain-wordmark sm:text-3xl text-2xl"></i> Node.js
             <i class="devicon-express-original sm:text-3xl text-2xl"></i> Express
             <i class="devicon-mongodb-plain sm:text-3xl text-2xl"></i> MongoDB
@@ -66,6 +84,23 @@ const Home = () => {
             <i class="devicon-vercel-original sm:text-3xl text-2xl"></i> Vercel
             <i class="devicon-bash-plain sm:text-3xl text-2xl"></i> Bash
           </div>
+          <div className='flex items-center sm:gap-3 gap-2 sm:text-[20px] text-[16px] p-[8px] mt-[10px]'>
+            <i class="devicon-nodejs-plain-wordmark sm:text-3xl text-2xl"></i> Node.js
+            <i class="devicon-express-original sm:text-3xl text-2xl"></i> Express
+            <i class="devicon-mongodb-plain sm:text-3xl text-2xl"></i> MongoDB
+            <i class="devicon-mysql-original sm:text-3xl text-2xl"></i> MySQL
+            <i class="devicon-postgresql-plain sm:text-3xl text-2xl"></i> PostgreSQL
+            <i class="devicon-prisma-original sm:text-3xl text-2xl"></i> Prisma
+            <i class="devicon-git-plain sm:text-3xl text-2xl"></i> Git
+            <i class="devicon-github-original sm:text-3xl text-2xl"></i> Github
+            <i class="devicon-docker-plain sm:text-3xl text-2xl"></i> Docker
+            <i class="devicon-amazonwebservices-plain-wordmark sm:text-3xl text-2xl"></i> AWS
+            <i class="devicon-cloudflare-plain sm:text-3xl text-2xl"></i> Cloudflare
+            <i class="devicon-vercel-original sm:text-3xl text-2xl"></i> Vercel
+            <i class="devicon-bash-plain sm:text-3xl text-2xl"></i> Bash
+          </div>
+        </div>
+          
         </div>
       </div>
 
@@ -83,7 +118,37 @@ const Home = () => {
       {/* Project */}
       <div>
         <h1 className='sm:text-[40px] text-[32px] leading-[52px] font-[700] mb-[30px] mt-[30px]'>Projects</h1>
-        
+        <div className='sm:max-w-[800px] max-w-[350px] mx-auto'>
+          <div className="relative w-full h-full mb-5">
+            <img src="/Paytm.png" className="w-full h-full object-cover" alt="" />
+            <div className="absolute inset-0 bg-black/80"></div>
+            <h2 className="absolute bottom-4 left-4 text-white">
+              Paytm Project
+            </h2>
+          </div>
+          <div className="relative w-full h-full mb-5">
+            <img src="/Ubuntu.png" className="w-full h-full object-cover" alt="" />
+            <div className="absolute inset-0 bg-black/40"></div>
+            <h2 className="absolute bottom-4 left-4 text-white">
+              Ubutnt Project
+            </h2>
+          </div>
+          <div className="relative w-full h-full mb-5">
+            <img src="/Refokus.png" className="w-full h-full object-cover" alt="" />
+            <div className="absolute inset-0 bg-black/40"></div>
+            <h2 className="absolute bottom-4 left-4 text-white">
+              Refocus Project
+            </h2>
+          </div>
+          <div className="relative w-full h-full mb-5">
+            <img src="/Paytm.png" className="w-full h-full object-cover" alt="" />
+            <div className="absolute inset-0 bg-black/40"></div>
+            <h2 className="absolute bottom-4 left-4 text-white">
+              Paytm Project
+            </h2>
+          </div>
+
+        </div>
       </div>
     </div>
   )

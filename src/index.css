@@ -10,3 +10,29 @@ body {
   font-family: "Menlo";
   src: url("./Menlo-Regular.ttf");
 }
+
+
+.frontendContainer {
+  animation: stripe 30s linear infinite;
+}
+
+.frontendContainer:hover {
+  animation-play-state: paused;
+}
+
+.backendContainer {
+  animation: stripe 30s linear infinite;
+}
+
+.backendContainer:hover {
+  animation-play-state: paused;
+}
+
+@keyframes stripe{
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
