@@ -118,7 +118,7 @@ const Home = () => {
 
       {/* Project */}
       <div className='sm:max-w-[800px] max-w-[350px] mx-auto mt-10'>
-                
+                <h1 className='sm:text-[40px] text-[32px] leading-[52px] font-[700] mb-[30px] mt-[30px]'>Projects</h1>
                 {/* PayTM */}
                 <div className="group relative w-full h-full mb-5 [box-shadow:0_-20px_80px_-20px_#ffffff1f_inset] opacity-90 overflow-hidden">
                   <img src="/Paytm.png" className="w-full h-full transition-all duration-300 ease-out opacity-70 overflow-hidden [mask-image:linear-gradient(to_top,transparent_15%,#000_100%)] hover:opacity-100 group-hover:scale-105 object-cover" alt="PayTM" />
