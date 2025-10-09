@@ -192,11 +192,11 @@ const Home = () => {
                     <p className='max-w-lg text-neutral-400 m-0'>Website where you can share your thoughts with everyone.</p>
                     {/* Live link */}
                     <a 
-                        href="https://github.com/PrathamSingh1/Writium" 
+                        href="https://writium.vercel.app/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className='min-w-22 w-22 px-3 py-1 bg-zinc-200 text-black rounded-full flex items-center justify-between cursor-pointer'>
-                        <span className='text-sm font-medium'>Github</span>
+                        <span className='text-sm font-medium'>Live</span>
                         <IoIosReturnRight />
                       </a>
                   </div>
