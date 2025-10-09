@@ -6,7 +6,7 @@ const Home = () => {
     <div className='sm:max-w-[810px] max-w-[350px] mx-auto sm:mt-[70px] mt-[20px]'>
 
       {/* Border Section */}
-      <div className='border-[1px] border-[#27272a] w-[full] sm:h-[25vh] p-[20px] rounded-[10px]'>
+      <div className='border-[1px] border-[#27272a] w-[full] sm:h-[205px] p-[20px] rounded-[10px]'>
         <div className='flex items-center justify-between'>
           <div>
             <h1 className='font-[Menlo] sm:text-[36px] text-[20px] leading-[40px] font-[700] tracking-tighter'>Shashi Ranjan Singh</h1>
